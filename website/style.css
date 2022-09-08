@@ -1,0 +1,103 @@
+
+title{
+  text-align: center;
+  color:red;
+}
+ .container{
+  margin:-200px 10px 10px 10px;
+ } 
+    
+
+#banner{
+    margin: 10px 10px 10px 500px;
+    padding:10px 10px 10px 300px                                                                                                                                                                                                                                                                                                                                                                                        
+   
+  
+    
+}
+#logo{
+    margin: 16px 750px -230px 14px;
+    
+    padding: 25px 500px 10px 10px;
+}
+navbar {
+  width: 100%;
+  background-color: greenyellow;
+  overflow: auto;
+}
+.nav{
+  margin:10px 10px 10px 100px;
+}
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size:20px;
+}
+
+
+.navbar a:hover {
+  background-color:#0e3bef;
+}
+
+
+.active {
+  background-color:#ac1f0e;
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+   
+    a:link {
+    color: blue;
+    text-decoration: red;
+    }
+    a:hover {
+    color:red;
+    text-decoration:blue;
+    }
+   
+    
+    
+  .menu{
+    margin: 100px 200px -250px 100px;
+   
+  }
+  .leftmenu{
+    margin: 50px 100px 100px 300px;
+  }
+  .leftmenu li a{
+    color: red;
+    list-style-type: none;
+      display: inline;
+      margin-left: 20px;
+      font-size:20px
+    
+  }
+  .rightmenu{
+    float:left;
+    margin: -900px -100px -100px -100px;
+    padding:500px 100px 100px 100px;
+  }
+  #main{
+    margin: -400px 100px 200px 600px;
+    padding: -100px 10px 10px 10px;
+   font-size: 20px;
+   color: #0e3bef;
+    text-align: justify;
+  }
+  .footer{
+    font-size:30px;
+    font-style: italic;
+   color:black;
+    padding: 100px -100px 10px -300px;
+    margin:  300px 100px 100px 200px;
+  }

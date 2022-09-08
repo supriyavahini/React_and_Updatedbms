@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+ h1{
+ text-align:center;
+ }
+ .container{
+ margin:10px 10px 10px 10px;
+ border:1px solid purple;
+ }
+</style>
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<script src="js/assignment.js"></script>
+</head>
+<body>
+
+<h1> Registration Form</h1>
+<div class="container">
+<form  name="myform" method="post">
+Name:<input type="text"  class="form-control"  id="name" required style="width:30%;"><br>
+Salary:<input type="salary"  class="form-control" id="salary" style="width:30%;"><br>
+Mobile:<input type="mobile"   class="form-control" id="mobile" style="width:30%;"><br>
+Address:<input type="Address"   class="form-control" id="address" style="width:30%;"><br>
+<button type="button"  class="btn btn-primary"  onclick="myFunction()">ADD</button>
+<button type="button"  class="btn btn-primary"  onclick="myFunction()">RESET</button>
+<button type="button"  class="btn btn-primary"  onclick="myFunction()">SUBMIT</button>
+<br><br>
+
+<table id="myTable" class="table table-bordered" > 
+  <thead>
+    <th>Name</th>
+     <th>Salary</th>
+     <th>Mobile</th>
+     <th>Address</th>
+</thead></table><br><br><br>
+</form>
+</div>
+</body>
+</html>

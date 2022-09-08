@@ -1,0 +1,16 @@
+var name="ojas";
+var msg="welcome to javascript at ${name}";
+console.log(msg);
+var str="Hyderabad";
+console.log(str.indexOf("d"));
+let num=10;
+console.log(num,num.toString());
+let str="vahini,surya,akhil,prithi";
+let part=str.slice(0,2);
+let part1=str.substr(4);
+let text="hello";
+let newText="hai";
+let text2=text.toUpperCase();
+let text3=text.toLowerCase();
+let text1="hello"+"vahini";
+let text4="Hello".concat(" ","World!");

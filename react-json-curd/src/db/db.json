@@ -1,0 +1,9 @@
+{
+    "products":[
+        {"id":1,"name":"Dell","colour":"Voilet","price":2000},
+        {"id":2,"name":"Intel","colour":"Indigo","price":3000},
+        {"id":3,"name":"Lenovo","colour":"Blue","price":4000},
+        {"id":4,"name":"Samsung","colour":"red","price":5000}
+    ]
+}
+

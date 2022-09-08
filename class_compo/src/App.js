@@ -1,21 +1,15 @@
 import Product from "./components/Product"
 import './App.css';
-import {useState}from "react";
+
 function App() {
-  const Product=[
-    {
-      price:99999,
-      name:"Iphone",
-      quantity:0
-    },
-    {
-      
-    }
-  ]
   return (
     <div className="App">
+      <h1> Product Components</h1>
+     <Product id="1" name="Vahini" qty="30" price="30000"/>
+     <Product id="1" name="Sonu" qty="30" price="10000"/>
+     <Product id="1" name="Varni" qty="30" price="40000"/>
+     <Product id="1" name="Vignu" qty="30" price="60000"/>
 
-     <Product/>
     </div>
   );
 }

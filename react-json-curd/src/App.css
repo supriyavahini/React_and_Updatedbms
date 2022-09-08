@@ -1,0 +1,47 @@
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: violet
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: yellowgreen
+}
+
+.active {
+  background-color: yellowgreen;
+}
+.container{
+  text-align: center;
+  text-decoration-color: indianred;
+  
+}
+th {
+  background-color:blueviolet;
+  color:red;
+}
+.vahini{
+  color:brown;
+}
+.vignu{
+  color: purple;
+}
+.varnika{
+  color: brown;
+}
